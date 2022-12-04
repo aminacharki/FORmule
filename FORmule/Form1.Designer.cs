@@ -41,69 +41,79 @@
             this.buttonsupp = new System.Windows.Forms.Button();
             this.buttoncomfirm = new System.Windows.Forms.Button();
             this.buttonannul = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // idcar
             // 
             this.idcar.AutoSize = true;
+            this.idcar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.idcar.Location = new System.Drawing.Point(87, 43);
             this.idcar.Name = "idcar";
-            this.idcar.Size = new System.Drawing.Size(30, 13);
+            this.idcar.Size = new System.Drawing.Size(37, 16);
             this.idcar.TabIndex = 0;
             this.idcar.Text = "idcar";
             // 
             // labelmarque
             // 
             this.labelmarque.AutoSize = true;
+            this.labelmarque.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelmarque.Location = new System.Drawing.Point(87, 83);
             this.labelmarque.Name = "labelmarque";
-            this.labelmarque.Size = new System.Drawing.Size(42, 13);
+            this.labelmarque.Size = new System.Drawing.Size(53, 16);
             this.labelmarque.TabIndex = 1;
             this.labelmarque.Text = "marque";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(199, 43);
+            this.textBox1.Location = new System.Drawing.Point(144, 43);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(163, 20);
+            this.textBox1.Size = new System.Drawing.Size(218, 20);
             this.textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(199, 80);
+            this.textBox2.Location = new System.Drawing.Point(144, 80);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(163, 20);
+            this.textBox2.Size = new System.Drawing.Size(218, 20);
             this.textBox2.TabIndex = 3;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(199, 122);
+            this.textBox3.Location = new System.Drawing.Point(144, 122);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(164, 20);
+            this.textBox3.Size = new System.Drawing.Size(219, 20);
             this.textBox3.TabIndex = 4;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(199, 162);
+            this.textBox4.Location = new System.Drawing.Point(144, 162);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(164, 20);
+            this.textBox4.Size = new System.Drawing.Size(218, 20);
             this.textBox4.TabIndex = 5;
             // 
             // color
             // 
             this.color.AutoSize = true;
+            this.color.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.color.Location = new System.Drawing.Point(87, 125);
             this.color.Name = "color";
-            this.color.Size = new System.Drawing.Size(30, 13);
+            this.color.Size = new System.Drawing.Size(37, 16);
             this.color.TabIndex = 6;
             this.color.Text = "color";
             // 
             // labematricule
             // 
             this.labematricule.AutoSize = true;
+            this.labematricule.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labematricule.Location = new System.Drawing.Point(87, 169);
             this.labematricule.Name = "labematricule";
-            this.labematricule.Size = new System.Drawing.Size(43, 13);
+            this.labematricule.Size = new System.Drawing.Size(53, 16);
             this.labematricule.TabIndex = 7;
             this.labematricule.Text = "mtricule";
             // 
@@ -112,7 +122,7 @@
             this.buttajouute.BackColor = System.Drawing.Color.Gray;
             this.buttajouute.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttajouute.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttajouute.Location = new System.Drawing.Point(71, 286);
+            this.buttajouute.Location = new System.Drawing.Point(550, 53);
             this.buttajouute.Name = "buttajouute";
             this.buttajouute.Size = new System.Drawing.Size(95, 46);
             this.buttajouute.TabIndex = 8;
@@ -125,7 +135,7 @@
             this.buttmodifier.BackColor = System.Drawing.Color.Gray;
             this.buttmodifier.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttmodifier.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttmodifier.Location = new System.Drawing.Point(199, 285);
+            this.buttmodifier.Location = new System.Drawing.Point(556, 136);
             this.buttmodifier.Name = "buttmodifier";
             this.buttmodifier.Size = new System.Drawing.Size(91, 46);
             this.buttmodifier.TabIndex = 9;
@@ -138,19 +148,20 @@
             this.buttonsupp.BackColor = System.Drawing.Color.Gray;
             this.buttonsupp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonsupp.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonsupp.Location = new System.Drawing.Point(321, 286);
+            this.buttonsupp.Location = new System.Drawing.Point(552, 215);
             this.buttonsupp.Name = "buttonsupp";
             this.buttonsupp.Size = new System.Drawing.Size(93, 46);
             this.buttonsupp.TabIndex = 10;
             this.buttonsupp.Text = "supprimer";
             this.buttonsupp.UseVisualStyleBackColor = false;
+            this.buttonsupp.Click += new System.EventHandler(this.buttonsupp_Click);
             // 
             // buttoncomfirm
             // 
             this.buttoncomfirm.BackColor = System.Drawing.Color.Gray;
             this.buttoncomfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttoncomfirm.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttoncomfirm.Location = new System.Drawing.Point(448, 286);
+            this.buttoncomfirm.Location = new System.Drawing.Point(559, 280);
             this.buttoncomfirm.Name = "buttoncomfirm";
             this.buttoncomfirm.Size = new System.Drawing.Size(86, 46);
             this.buttoncomfirm.TabIndex = 11;
@@ -163,7 +174,7 @@
             this.buttonannul.BackColor = System.Drawing.Color.Gray;
             this.buttonannul.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonannul.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonannul.Location = new System.Drawing.Point(579, 286);
+            this.buttonannul.Location = new System.Drawing.Point(562, 344);
             this.buttonannul.Name = "buttonannul";
             this.buttonannul.Size = new System.Drawing.Size(85, 46);
             this.buttonannul.TabIndex = 12;
@@ -171,12 +182,47 @@
             this.buttonannul.UseVisualStyleBackColor = false;
             this.buttonannul.Click += new System.EventHandler(this.buttonannul_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4});
+            this.dataGridView1.Location = new System.Drawing.Point(90, 244);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(441, 178);
+            this.dataGridView1.TabIndex = 13;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "idcar";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "marque";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "color";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "mtricule";
+            this.Column4.Name = "Column4";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(764, 450);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.buttonannul);
             this.Controls.Add(this.buttoncomfirm);
             this.Controls.Add(this.buttonsupp);
@@ -193,6 +239,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,6 +260,11 @@
         private System.Windows.Forms.Button buttonsupp;
         private System.Windows.Forms.Button buttoncomfirm;
         private System.Windows.Forms.Button buttonannul;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
     }
 }
 
